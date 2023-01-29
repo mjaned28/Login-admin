@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meraki | Login</title>
+    <link rel="stylesheet" href="../css/login-admin.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <form class="form-container invalid" method="post">
+                <img src="../icons/logo/logo_icon.svg">
+                <h1>Login</h1>
+                <hr>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="error">
+                    <p>Invalid email/password. Please try again.</p>
+                </div>
+                <input type="submit" name="login" class="submit-btn" value="Login">
+                <div class="row1">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="../script/app.js"></script>
+</body>
+
+</html>
